@@ -29,5 +29,6 @@ relevant_docs = retriver.invoke(query)
 print("Relevant Documents")
 
 for i , doc in enumerate(relevant_docs, 1):
-    print(f"Document {i}:\n {doc.page_content}\n")
+    print(f"Document {i}:\n {doc.page_content}\n") 
     print(f"Source:{doc.metadata['source']}")
+
